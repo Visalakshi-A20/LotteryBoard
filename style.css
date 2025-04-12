@@ -1,0 +1,62 @@
+.body {
+  text-align: center;
+  display: flex;
+}
+h1 {
+  text-align: center;
+}
+#buttons {
+  display: flex;
+  text-align: center;
+}
+.button {
+    color: white;
+    background-color: green;
+    border: 2px solid red; /* changed from `border: red` to make it visible */
+    padding: 10px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+    margin: 20px auto; /* centers the button horizontally */
+  }
+  
+.button:hover {
+  background-color: rgba(0, 128, 0, 0.729);
+}
+
+.box {
+  width: 145px;
+  height: 38px;
+  display: flex;
+  background-color: yellow;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 20;
+  margin: 5px;
+  text-align: center;
+  align-items: center; 
+}
+.lotteryContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#lotterySheetContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#winningGift {
+    font-weight: bold;
+    font-size: larger;
+  }
+  
+.winningBox {
+  background-color: green;
+}
+.highlightedBox {
+  border: 5px solid red;
+}
